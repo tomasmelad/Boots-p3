@@ -1,0 +1,161 @@
+.modal-backdrop.show{
+    z-index: -1;
+}
+.div-iqun{
+    z-index: 20000;
+}
+.div-iqun ul li{
+    list-style: none;
+    margin-top: 23px;
+    font-size: 33px;
+}
+.div-iqun ul li a{
+display: block;
+width: 43px;
+height: 44px;
+text-align: center;
+border-radius: 5px;
+padding-top: 6px;
+}
+.div-iqun{
+    top: 25%;
+    right: 20px;
+}
+.carousel-caption{
+    background-color: rgb(0, 0, 0,0.6);
+    border-radius: 5px;
+    margin: auto;
+}
+.p{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 5px;
+}
+.p p{
+    padding-top: 27px;
+}
+.bg{
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/CEILING\ SPIRAL\ STAND\ WITH\ LIGHT.jpg);
+    background-attachment: fixed;
+}
+.b{
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 3px;
+    background-color: #e9ecef;
+}
+.z::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color:#343a40;
+    transition: 1s;
+}
+.z:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+.z::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgb(34, 34, 34);
+    transition: 1s;
+
+}
+.z:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+.bg2{
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/Adidas_Wallpaper__.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.img1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    right: 0%;
+    background: -webkit-linear-gradient(top ,#000000,#000000,#EEEDEB );
+    opacity: 0.7;
+}
+.img1:hover::after{
+  background: -webkit-linear-gradient(top ,#021526,#021526,#EEEDEB);    
+  opacity: 0.7;
+}
+.over-lay:hover{
+ transform: scale(0.95, 0.95);
+ transition: 0.5s;
+}
+.modal-backdrop.show{
+    z-index: -1;
+}
+.div2 h6:hover{
+    cursor: pointer;
+    color: gray !important;
+}
+.is{
+    clip-path: polygon(3% 0, 100% 0%, 100% 100%, 21% 100%);
+    overflow: hidden;
+}
+.to:hover .horizontal{
+    transform: scale(1.07);
+}
+.line{
+    border-width: 5px !important; 
+     width: 100px ;
+}
+
+.for-hover:hover .line{
+     width: 130px;
+}
+.btn-bg {
+    background-color: #d3d1ce;
+}
+.to{
+    background-image: linear-gradient(to left , #e9ecef , #6a6f74);
+}
+.to1{
+    background-image: linear-gradient(to right , #e9ecef , #6a6f74);
+}
+.is2{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    overflow: hidden;
+}
+.for-hover:hover .horizontal1{
+    transform: scale(1.07);
+}
+@media (max-width: 776px){
+    .is2{      
+        height: 300px;
+        clip-path:none; 
+    }
+    .is{       
+        order: -1; 
+        height: 300px;
+        clip-path: none;
+    }
+}
